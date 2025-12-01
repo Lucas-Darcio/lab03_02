@@ -23,9 +23,9 @@ jobs:
           context: ./
           push: true
           #dockerfile: ./Dockerfile   # Specify the path to your Dockerfile
-          tags: lucasdarcio/webacademy:latest
-deploy:
-  runs-on: ubuntu-latest
-  steps:
-    - name: Fazendo deploy
-      run: echo "Deploy com sucesso!"
+          tags: moisesgc/webacademy:latest
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fazendo deploy
+        run: echo "Deploy com sucesso!"
